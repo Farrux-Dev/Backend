@@ -1,0 +1,360 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+.head{
+    width: 100%;
+    height: 150vh;
+ 
+}
+.Navbar{
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-around;
+}
+.Logo{
+    
+    display: flex;
+    align-items:center;
+}
+.NavItem{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+}
+.NavItem a{
+    color:black;
+}
+.Menu{
+    display: none;
+}
+.SignButtun{
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid black;
+    opacity: 2;
+    color: white;
+    background-color: rgb(247, 206, 131);
+}
+.HeaderSection{
+    margin-top: 20px;
+}
+.SectionLogo{
+    color:orange;
+    font-family: monospace;
+    height: 40px;
+    height: 0px;
+    margin-top: 20px;
+}
+.sectionTitle{
+    margin-top: 80px;
+}
+.HeaderTitle{
+    width: 424px;
+    color:rgb(121, 78, 236);
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: 0px;
+}
+.HeaderCategory{
+    width: 280px;
+    color:grey;
+}
+.HeaderSection{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.FindMore{
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: orange;
+    color: white;
+    font-family: monospace;
+    font-weight: 800;
+}
+.CategorySection{
+    width: 100%;
+    height: 400px;
+ 
+    text-align: center;
+}
+.category{
+    height: 10px;
+    font-size: 28px;
+    font-family: monospace;
+    color:gray;
+}
+.titleHeader{
+    font-size: 28px;
+}
+.CategorySection p:last-child{
+    width: 100px;
+    color:gray;
+}
+.FlexDiv{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.Card{
+    width: 140px;
+    height: 280px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+
+}
+@media only screen and (max-width:1265px){
+    .HomeImag{
+        width: 600px;
+    }
+    .SectionLogo{
+        font-size: 18px;
+    }
+    .HeaderTitle{
+        font-size: 40px;
+    }
+
+}
+@media only screen and (max-width:1040px){
+    .HomeImag{
+        width: 500px;
+    }
+    
+}
+@media only screen and (max-width:978px){
+    .HomeImag{
+        width: 400px;
+    }
+    .SectionLogo{
+        font-size: 16px;
+    }
+    .HeaderTitle{
+        font-size: 34px;
+    }
+}
+@media only screen and (max-width:850px){
+    .HomeImag{
+        width: 300px;
+    }
+    .sectionTitle{
+        margin-top: 10px;
+    }
+    .HeaderTitle{
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width:812px){
+     .NavItem{
+        font-size: 14px;
+     }
+     .LogoHead{
+        width: 60px;
+     }
+}
+@media only screen and (max-width:728px){
+    .HomeImag{
+        width: 240px;
+    }
+    .sectionTitle{
+        margin-top: 10px;
+    }
+    .HeaderTitle{
+        font-size: 20px;
+    }
+    .HeaderCategory{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:772px){
+    .HomeImag{
+        width: 140px;
+    }
+    .sectionTitle{
+        margin-top: 0px;
+    }
+    .HeaderTitle{
+        font-size: 20px;
+    }
+    .HeaderCategory{
+        font-size: 10px;
+    }
+    .FindMore{
+        width: 80px;
+    }
+}
+@media only screen and (max-width:640px){
+ .NavItem{
+    font-size: 12px;
+ }
+ .SignButtun{
+    width: 80px;
+    height: 20px;
+ }
+}
+@media only screen and (max-width:576px){
+    .HomeImag{
+        display: none;
+    }
+    .sectionTitle{
+        text-align: center;
+    }
+    .HeaderCategory{
+        text-align: center;
+        margin-left: 80px;
+    }
+    .FindMore{
+        width: 120px;
+        margin-left: 20px;
+    }
+    .category{
+        text-align: center;
+        margin-left: -34px   ;
+    }
+    .Navbar{
+        width: 500px;
+    }
+    .SignButtun{
+        display: none;
+    }
+    .FlexDiv{
+        display: block;
+        text-align: center;
+    }
+    .Card{
+        margin-left: 80px;
+        width: 400px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .Card p:last-child{
+        margin-left: 150px;
+    }
+   }
+
+   @media only screen and (max-width:532px) {
+    .Card{
+        margin-left: 50px;
+    }
+   }
+   @media only screen and (max-width:444px) {
+    .Card{
+        margin-left: 18px;
+    }
+    .category{
+        margin-left: 14px    ;
+    }
+    .Navbar{
+       width: 400px;
+    }
+    .NavItem{
+        font-size: 10px;
+    }
+    .LogoHead{
+        width: 40px;
+    }
+   }
+     @media only screen and (max-width:434px) {
+    .Card {
+        width: 300px;
+        margin-left: 50px;
+    }
+    .Card p:last-child{
+        margin-left: 90px;
+    }
+   }
+   @media only screen and (max-width:358px) {
+     .HeaderTitle{
+        font-size: 14px;
+     }
+     .SectionLogo{
+        font-size: 12px;
+     }
+     .HeaderCategory{
+        font-size: 8px;
+     }
+   }
+   @media only screen and (max-width:344px) {
+  .Navbar{
+    width: 340px;
+  }
+  }
+    @media only screen and (max-width:320px) {
+    .Navbar{
+      width: 320px;
+      font-size: 0px;
+    }
+
+    .HeaderTitle{
+        font-size: 10px;
+     }
+     .SectionLogo{
+        font-size: 8px;
+     }
+     .HeaderCategory{
+        font-size: 6px;
+     }
+     .Card{
+        margin-left: 20px;
+     }
+    }
+    .Decore{
+        position: absolute;
+        z-index: -1;
+        display: flex;
+        margin-left: 1100px;
+    }
+
+
+    @media only screen and (max-width:1651px){
+        .Decore{
+            margin-left: 800px;
+        }
+        
+    }
+    @media only screen and (max-width:1509px){
+        .Decore{
+            margin-left: 640px;
+        }
+        
+    }
+    @media only screen and (max-width:1355px){
+        .Decore{
+            margin-left: 440px;
+        }
+        
+    }
+    @media only screen and (max-width:1155px){
+        .Decore{
+            margin-left: 340px;
+        }
+        
+    }
+    @media only screen and (max-width:1053px){
+        .Decore{
+            margin-left: 240px;
+        }
+        
+    }
+    @media only screen and (max-width:950px){
+        .Decore{
+            margin-left: 160px;
+        }
+        
+    }
+    @media only screen and (max-width:880px){
+        .Decore{
+            display: none;
+        }
+        
+    }

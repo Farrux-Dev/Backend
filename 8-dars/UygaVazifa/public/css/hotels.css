@@ -1,0 +1,185 @@
+.Hotelsheader{
+    width: 100%;
+    height: 100vh;
+
+}
+.Hotels{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.HotelCategory{
+    text-align: center;
+    color: gray;
+    font-family: monospace;
+}
+.HotelCard{
+    width: 380px;
+    height: 600px;
+    background-color:white;
+    border-radius: 18px;
+}
+.HotelImg{
+    width: 380px;
+    margin-top: 20px;
+    height:400px;
+}
+.CardFlex{
+    font-family: monospace;
+    font-size: 22px;
+    color: gray ;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.FlexTwoCard{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    font-family: monospace;
+    font-size: 18px;
+}
+@media only screen and  (max-width:1220px) {
+    .HotelCard{
+        width: 300px;
+    }
+    .HotelImg{
+        width: 300px;
+    }
+    .CardFlex{
+        width: 300px;
+        font-size: 18px;
+    }
+    .FlexTwoCard{
+        font-size: 16px;
+        width: 300px;
+    }
+}
+@media only screen and  (max-width:948px) {
+    .HotelCard{
+        width: 240px;
+        border-radius:4px;
+    }
+    .HotelImg{
+        width: 240px;
+    }
+    .CardFlex{
+        width: 200px;
+        font-size: 14px;
+    }
+    .FlexTwoCard{
+        font-size: 12px;
+        width: 200px;
+    }
+}
+
+@media only screen and  (max-width:748px) {
+.HotelCard{
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 160px;
+}
+.HotelImg{
+    width: 400px;
+}
+.Hotels{
+    display: block;
+}
+.Hotelsheader{
+    height: 290vh;
+}
+.CardFlex{
+    width: 400px;
+    font-size: 22px;
+}
+.FlexTwoCard{
+    width: 400px;
+    font-size: 20px;
+}
+}
+@media only screen and  (max-width:646px) {
+    .HotelCard{
+        width: 400px;
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+    }
+    @media only screen and  (max-width:540px) {
+        .HotelCard{
+            width: 400px;
+            margin-top: 40px;
+            margin-left: 50px;
+        }
+        }
+        @media only screen and  (max-width:520px) {
+            .HotelCard{
+                width: 400px;
+                margin-top: 40px;
+                margin-left: 40px;
+            }
+            .CardFlex{
+                width: 340px;
+                font-size: 18px;
+            }
+            .FlexTwoCard{
+                width: 340px;
+                font-size: 16px;
+            }
+            }
+            @media only screen and  (max-width:444px) {
+                .HotelCard{
+                    width: 300px;
+                    margin-top: 40px;
+                    margin-left: 60px;
+                }
+                .CardFlex{
+                    width: 300px;
+                    font-size: 18px;
+                }
+                .FlexTwoCard{
+                    width: 300px;
+                    font-size: 16px;
+                }
+                .HotelImg{
+                    width: 300px;
+                }
+                }
+                @media only screen and  (max-width:404px) {
+                    .HotelCard{
+                        width: 240px;
+                        margin-top: 40px;
+                        margin-left: 60px;
+                    }
+                    .CardFlex{
+                        width: 240px;
+                        font-size: 16px;
+                    }
+                    .FlexTwoCard{
+                        width: 240px;
+                        font-size: 12px;
+                    }
+                    .HotelImg{
+                        margin-left: 20px;
+                        width: 200px;
+                    }
+                    }
+                    @media only screen and  (max-width:332px) {
+                        .HotelCard{
+                            width: 200px;
+                            margin-top: 40px;
+                            margin-left: 60px;
+                        }
+                        .CardFlex{
+                            width: 200px;
+                            font-size: 12px;
+                        }
+                        .FlexTwoCard{
+                            width: 200px;
+                            font-size: 10px;
+                        }
+                        .HotelImg{
+                            margin-left: 30px;
+                            width: 140px;
+                        }
+                        }
